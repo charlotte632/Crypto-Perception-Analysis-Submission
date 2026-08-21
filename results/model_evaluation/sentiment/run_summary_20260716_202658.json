@@ -1,0 +1,13 @@
+{
+  "started_at": "2026-07-16T20:26:58+01:00",
+  "model": "google-bert/bert-base-uncased",
+  "usable_tweets": 50000,
+  "train_tweets": 35000,
+  "validation_tweets": 7500,
+  "test_tweets": 7500,
+  "epochs": 1,
+  "batch_size": 8,
+  "max_length_tokens": 128,
+  "training_seconds": 4015.06,
+  "total_seconds": 4220.81
+}

@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-08-18T11:53:38+01:00",
+  "method": "Unsupervised clustering of mean-pooled, L2-normalised pretrained BERT embeddings",
+  "encoder": "google-bert/bert-base-uncased",
+  "labels_used_for_fitting": false,
+  "posthoc_descriptions_use_lexicon_labels": true,
+  "fit_sample_unique_tweets": 14773,
+  "fit_samples_per_dataset_requested": 500,
+  "max_length": 128,
+  "seed": 42,
+  "device": "cpu",
+  "stability_runs": 5,
+  "limited_rows_per_file": null,
+  "quality": {
+    "k3": {
+      "silhouette": 0.08420474827289581,
+      "davies_bouldin": 3.6237000246403532,
+      "calinski_harabasz": 324.1609772658754,
+      "stability_runs": 5,
+      "seed_stability_adjusted_rand_mean": 0.5898759560628729,
+      "seed_stability_adjusted_rand_min": 0.37280905974238476,
+      "seed_stability_adjusted_rand_max": 0.819060609395681,
+      "cluster_sizes": [
+        5192,
+        4964,
+        4617
+      ]
+    },
+    "k5": {
+      "silhouette": 0.059017207473516464,
+      "davies_bouldin": 3.6397561335184094,
+      "calinski_harabasz": 221.99841592132896,
+      "stability_runs": 5,
+      "seed_stability_adjusted_rand_mean": 0.4748223541104542,
+      "seed_stability_adjusted_rand_min": 0.3305271881126115,
+      "seed_stability_adjusted_rand_max": 0.6185020683646032,
+      "cluster_sizes": [
+        3461,
+        3050,
+        1555,
+        3686,
+        3021
+      ]
+    }
+  }
+}

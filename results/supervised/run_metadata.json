@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-08-17T23:29:25+01:00",
+  "method": "Fine-tuned BERT inference replacing the paper's lexicon inference",
+  "emotion_thresholds": {
+    "Happy": 0.8,
+    "Angry": 0.85,
+    "Surprise": 0.85,
+    "Sad": 0.85,
+    "Fear": 0.55
+  },
+  "max_length": 128,
+  "device": "cpu",
+  "limited_rows_per_file": null,
+  "events": 17,
+  "datasets": 51,
+  "tweets": 205225
+}
